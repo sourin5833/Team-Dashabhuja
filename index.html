@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Dashabhuja</title>
+    <link rel="icon" href="dashabhuja.png"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        .navbar .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navbar a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #e63946;
+        }
+
+        .header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #e63946;
+            color: #fff;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+
+        .team-member {
+            background: #fff;
+            border-radius: 8px;
+            margin: 1rem;
+            padding: 1.5rem;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+        }
+
+        /* Circular profile image styling */
+        .team-member img.profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid #f4f4f9;
+        }
+
+        .team-member h3 {
+            margin-top: 70px;
+            font-size: 1.2rem;
+        }
+
+        /* Social Links Styling */
+        .social-links {
+            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-links a {
+            margin: 0 0.5rem;
+        }
+
+        .social-links img {
+            width: 32px;
+            transition: transform 0.3s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#home">
+            <img src="dashabhuja.png" alt="Dashabhuja Logo" class="logo" style="height: 40px; width: 40px;">
+        </a>
+        <div>
+            <a href="#home">Home</a>
+            <a href="https://dashabhuja.vercel.app/" target="_blank">App</a>
+            <a href="https://dashabhuja.streamlit.app" target="_blank">Yoga</a>
+            <a href="mailto:sourin.mukherjee2580@gmail.com">Contact Us</a>
+        </div>
+    </div>
+    
+
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Team Dashabhuja</h1>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team">
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="sidhum.png" alt="Siddhartha Mukherjee" class="profile-pic">
+            <h3>Siddhartha Mukherjee</h3>
+            <div class="social-links">
+                <a href="https://github.com/Siddhartha-0709" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/sidd-myself/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <!-- Repeat for other team members -->
+        <div class="team-member">
+            <img src="preenon.png" alt="Preenon Saha" class="profile-pic">
+            <h3>Preenon Saha</h3>
+            <div class="social-links">
+                <a href="https://github.com/Preenon1462003" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/preenon-saha-b13525222/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="sourin.png" alt="Sourin Mukherjee" class="profile-pic">
+            <h3>Sourin Mukherjee</h3>
+            <div class="social-links">
+                <a href="https://github.com/i-am-faith" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/sourin-mukherjee2105833/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="rishav.png" alt="Rishav Das" class="profile-pic">
+            <h3>Rishav Das</h3>
+            <div class="social-links">
+                <a href="https://github.com/Rishavdas07" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/rishav-das-461b8a224/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <img src="dipu.png" alt="Dipankar Khanra" class="profile-pic">
+            <h3>Dipankar Khanra</h3>
+            <div class="social-links">
+                <a href="https://github.com/dipankar-k3" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/dipankar-khanra-78440a230/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
